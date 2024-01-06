@@ -20,7 +20,7 @@ public class WelcomeController {
     @GetMapping("/greet")
     public ModelAndView getGreetMessage(){
         ModelAndView modelAndView = new ModelAndView() ;
-        modelAndView.addObject( "msg","Good evening !!!!!!!!" );
+        modelAndView.addObject( "msg","Good Morning !!!!!!!!" );
         modelAndView.setViewName( "index" );
         return modelAndView;
     }

@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @Controller
 public class DemoController {
 
-    @GetMapping("/date")
+    @GetMapping("/today_date")
     public ModelAndView getTodayDate() {
 
         ModelAndView modelAndView = new ModelAndView();
